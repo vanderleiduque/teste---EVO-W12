@@ -27,7 +27,6 @@ export class AppComponent {
     
     let email =  formulario[1].value                                        /* <--- Validação de Email ---  */
     const reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
-    const span = document.getElementById("validar-span")
   
     if (reg.test(email))
     {
